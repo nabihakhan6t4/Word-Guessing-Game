@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #add8e6;
+}
+.wrapper {
+  position: absolute;
+  width: 90%;
+  max-width: 37em;
+  background: #fff;
+  padding: 7em 3em;
+  transform: translate(-50%,-50%);
+  top: 50%;
+  left: 50%;
+  text-align: center;
+  border-radius: 1em;
+}
+.controls-container{
+    background:  #add8e6;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    top: 0;
+}
+#start{
+    font-size: 1.2em;
+    padding: 1em 3em;
+    background: #fff;
+    border: none;
+    outline: none;
+    border-radius: 2em;
+}
