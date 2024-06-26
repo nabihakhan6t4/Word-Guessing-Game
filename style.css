@@ -38,3 +38,6 @@ body {
     outline: none;
     border-radius: 2em;
 }
+.hide{
+  display: none;
+}
